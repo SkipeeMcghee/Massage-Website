@@ -1,29 +1,46 @@
+
+/* Declaring Color Palette */
+:root {
+  --dark-green: #33534a;
+  --light-green: #bcc595;
+}
+
 /* General Stuff */
 header {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #33534a
+    color: var(--dark-green)
 }
 body {
-    background-color: #bcc595;
+/* Background Color */  
+    background-color: var(--light-green);
 } 
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    color: #33534a;
+    color: var(--dark-green);
   }
-
+/* Global Styles for all links */
+a {
+  color: var(--light-green);
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff
+}
 /* Button */
 .centered-btn {
     text-align: center;
 }
 .styled-btn {
-    background-color: #33534a;
+    display: flex;
+    background-color: var(--dark-green);
     border: none;
-    color: #bcc595;
+    color: var(--light-green);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -35,7 +52,7 @@ p {
   }
 .styled-btn:hover {
     background-color: #839f4b;
-    color: #004a13
+    color: var(--light-green)
 }
 
 /* Navigation Bar */
@@ -57,7 +74,7 @@ nav {
   
   nav a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #33534a;
+    color: var(--dark-green);
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
