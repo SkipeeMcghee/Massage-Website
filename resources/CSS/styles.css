@@ -92,3 +92,13 @@ img {
   width: 24rem;
   height: 24rem;
 }
+
+.services {
+  display: inline-block;
+}
+
+.services > div {
+  display: inline-block;
+  vertical-align: top; 
+}
+
