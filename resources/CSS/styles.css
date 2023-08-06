@@ -1,11 +1,10 @@
-/* Declaring Color Palette */
 :root {
   --dark-green: #33534a;
   --light-green: #bcc595;
 }
 
 /* General Stuff */
-html, body {
+html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -25,7 +24,7 @@ p {
   font-weight: 600;
   color: var(--dark-green);
 }
-/* Global Styles for all links */
+/* links */
 a {
   color: var(--light-green);
   text-decoration: none;
